@@ -1,0 +1,9 @@
+var toggleBtn = document.getElementById('toggle');
+var mobilNav = document.querySelector('.mobil-menu__list')
+toggleBtn.onclick = function(e){
+      mobilNav.classList.toggle('nodisp')
+}
+mobilNav.onmouseleave = function(){
+   mobilNav.classList.add('nodisp')
+}
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6ImFwcC5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciB0b2dnbGVCdG4gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgndG9nZ2xlJyk7XG52YXIgbW9iaWxOYXYgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcubW9iaWwtbWVudV9fbGlzdCcpXG50b2dnbGVCdG4ub25jbGljayA9IGZ1bmN0aW9uKGUpe1xuICAgICAgbW9iaWxOYXYuY2xhc3NMaXN0LnRvZ2dsZSgnbm9kaXNwJylcbn1cbm1vYmlsTmF2Lm9ubW91c2VsZWF2ZSA9IGZ1bmN0aW9uKCl7XG4gICBtb2JpbE5hdi5jbGFzc0xpc3QuYWRkKCdub2Rpc3AnKVxufSJdfQ==
